@@ -1,89 +1,31 @@
-body{
-    background-image: url(./background.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+.ramana{
+    filter: blur(2px);
+}
+ul{
+    list-style-type:none;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px;
 }
 .flex-container{
     display: flex;
-    justify-content: space-around;
+    flex-flow: row wrap;
+    background-color: whitesmoke;
+    padding-top: 50px;
+    
 }
 .flex-item{
     width: 200px;
-    height: 60px;
-    background-color: black;
-    color: white;
-    margin: 20px;
-    padding: 20px;
-    text-align: center;
-    border: 5px solid red;
-    border-radius: 20px;
-}
-#xyz{
-    position: absolute;
-    left: 360px;
-    top: 30px;
-    width: 200px;
-    height: 25px;
-}
-.dolly{
-   display: flex;
-   justify-content: end;
-}
-.box{
-    border:5px dashed  red;
-    color: red;
-    text-align: center;
-    position: absolute;
-    right: 300px; 
-    top: 200px;
-}
-.dolly1{
-    display: flex;
-}
-.box1{
-    width: 200px;
     height: 200px;
-    padding: 20px;
-    border-radius: 100%;
-    background-color: plum;
-    border: 5px solid grey;
-    position: absolute;
-    left: 60px; 
-    top: 400px;
+    background-color: white;
+    margin:20px;
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
-.dolly2{
-    display: flex;
-    justify-content: center;
-}
-.box2{
-    width: 200px;
-    height: 25px;
-    color: white;
-    border-radius: 20px;
-    background-color: black;
-    border: 5px solid red;
-    position: absolute;
-    top: 820px;
-}
-.test{
-    position: absolute;
-    top: 850px;
-}
-.ramana{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    position: absolute;
-    top: 900px;
-
-}
-.box4{
-    border: 5px solid maroon;
-    width: 350px;
-    margin: 15px;
-    border-radius: 20px;
-    padding: 10px; 
-    background-color: aqua;
-   
+.test
+{
+    position:absolute;
+    left:800px;
+    top:70px; 
 }

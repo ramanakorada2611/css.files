@@ -1,31 +1,156 @@
-.ramana{
-    filter: blur(2px);
+html{
+    background-color: cadetblue;
 }
-ul{
-    list-style-type:none;
-    font-size: 25px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 10px;
+.test{
+    color: cyan;
+    background-color: black;
+    width: 250px;
+    padding: 10px;
+    height: 60px;
+    text-align:center;
+    font-family:cursive;
+    border-radius: 5px;
+    border: 5px solid aqua;
+    box-shadow: 5px 5px black;
+    align-items: center;
+}
+.center{
+    margin:auto;
+    width: 25%;
+}
+hr{
+    border: 1px solid blue;
 }
 .flex-container{
-    display: flex;
-    flex-flow: row wrap;
-    background-color: whitesmoke;
-    padding-top: 50px;
-    
+    flex-flow: column wrap;
+   
 }
-.flex-item{
+.border{
+    border: 5px solid black;
+    height:350px;
+}
+
+.flex-box1{
+    width: 140px;
+    height:100px;
+    background-color: black;
+    color:cyan;
+    padding:10px;
+    line-height: 25px;
+    border-radius: 5px;
+    border: 5px solid aqua;
+    box-shadow:5px 5px black;
+    float: left;
+    margin-bottom: 50px;
+}
+.flex-box2{
+    width: 140px;
+    height:100px;
+    background-color: black;
+    color:cyan;
+    padding:10px;
+    line-height: 25px;
+    border-radius: 5px;
+    border: 5px solid aqua;
+    box-shadow:5px 5px black;
+    float: right;   
+}
+.flex-box3{
+       width: 140px;
+       height:100px;
+       background-color: black;
+       color:cyan;
+       padding:10px;
+       line-height: 15px;
+       border-radius: 5px;
+       border: 5px solid aqua;
+       box-shadow:5px 5px black;
+       float: left;
+       clear: left;
+      
+    }
+ .flex-box4{
+           width: 140px;
+           height:100px;
+           background-color: black;
+           color:cyan;
+           padding:10px;
+           line-height: 25px;
+           border-radius: 5px;
+           border: 5px solid aqua;
+           box-shadow:5px 5px black;  
+           float: right;   
+}
+.test1{
+    color: cyan;
+    background-color:white;
+    width: 300px;
+    padding: 10px;
+    height: 60px;
+    text-align:center;
+    font-family:cursive;
+    border-radius: 5px;
+    border: 5px solid aqua;
+    box-shadow: 5px 5px black;
+    align-items: center;
+    z-index: 100;
+}
+.center1{
+    margin:auto;
+    width: 25%;
+    position: absolute;
+    top:255px;
+    left: 450px;
+    position: fixed;
+    z-index: 10;
+}
+img{
+    width:140px;
+    height: 80px;
+}
+input{
+    width: 70px;
+    height:15px;
+}
+.card{
+    background-color: plum;
+    width: 500px;
+    height: 565px;
+    position: absolute;
+    top: 500px;
+    left: 450px;
+    padding-top: 30px;
+    border: 5px solid black;
+   
+}
+.card1{
+ width: 200px;
+ height:200px;
+ background-color: black;
+ color: aqua;
+ margin: 5px;
+ float: left;
+ padding: 20px;
+
+}
+.card2{
     width: 200px;
-    height: 200px;
-    background-color: white;
-    margin:20px;
-    border-radius: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-.test
-{
-    position:absolute;
-    left:800px;
-    top:70px; 
-}
+    height:200px;
+    background-color: black;
+ color: aqua;
+ margin: 3px;
+ float: right;
+ padding: 20px;
+ 
+   }
+   .card3{
+    width: 453px;
+    height:250px;
+    padding: 20px;
+   background-color: black;
+   color: aqua;
+    margin: 1px;
+    float: right;
+   
+   }
+   

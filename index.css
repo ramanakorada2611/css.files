@@ -1,156 +1,133 @@
-html{
-    background-color: cadetblue;
-}
 .test{
-    color: cyan;
-    background-color: black;
-    width: 250px;
-    padding: 10px;
-    height: 60px;
-    text-align:center;
-    font-family:cursive;
-    border-radius: 5px;
-    border: 5px solid aqua;
-    box-shadow: 5px 5px black;
-    align-items: center;
-}
-.center{
-    margin:auto;
-    width: 25%;
-}
-hr{
-    border: 1px solid blue;
-}
-.flex-container{
-    flex-flow: column wrap;
-   
-}
-.border{
-    border: 5px solid black;
-    height:350px;
-}
-
-.flex-box1{
-    width: 140px;
-    height:100px;
-    background-color: black;
-    color:cyan;
-    padding:10px;
-    line-height: 25px;
-    border-radius: 5px;
-    border: 5px solid aqua;
-    box-shadow:5px 5px black;
-    float: left;
-    margin-bottom: 50px;
-}
-.flex-box2{
-    width: 140px;
-    height:100px;
-    background-color: black;
-    color:cyan;
-    padding:10px;
-    line-height: 25px;
-    border-radius: 5px;
-    border: 5px solid aqua;
-    box-shadow:5px 5px black;
-    float: right;   
-}
-.flex-box3{
-       width: 140px;
-       height:100px;
-       background-color: black;
-       color:cyan;
-       padding:10px;
-       line-height: 15px;
-       border-radius: 5px;
-       border: 5px solid aqua;
-       box-shadow:5px 5px black;
-       float: left;
-       clear: left;
-      
-    }
- .flex-box4{
-           width: 140px;
-           height:100px;
-           background-color: black;
-           color:cyan;
-           padding:10px;
-           line-height: 25px;
-           border-radius: 5px;
-           border: 5px solid aqua;
-           box-shadow:5px 5px black;  
-           float: right;   
+    width: 100%;
+    color: aliceblue;
+    background-image: linear-gradient(to right,blue,black,aqua);
 }
 .test1{
-    color: cyan;
-    background-color:white;
-    width: 300px;
-    padding: 10px;
-    height: 60px;
-    text-align:center;
-    font-family:cursive;
-    border-radius: 5px;
-    border: 5px solid aqua;
-    box-shadow: 5px 5px black;
+    width:50%;
+    height: 70px;
+    background-color: cadetblue;
+    color: black;
+    justify-content: center;
     align-items: center;
-    z-index: 100;
+    display: flex;
+    margin: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    position:absolute ;
+    left: 280px;
 }
-.center1{
-    margin:auto;
-    width: 25%;
+.grid-container{
+    width: 100%;
+    height:250px;
+    background-color: paleturquoise;
+    border: 2px solid black;
     position: absolute;
-    top:255px;
-    left: 450px;
-    position: fixed;
-    z-index: 10;
+    top: 130px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
-img{
-    width:140px;
+.grid-item{
+   background-color: black;  
+   margin:1px;
+   width:350px;
+   height: 100px;
+   color: aqua;
+   border-radius: 5px;
+   padding-top: 10px;
+   padding-left: 20px;
+   border: 2px solid pink;
+}
+.extra{
+    background-color: black;  
+    margin:1px;
+    width:350px;
+    color: aqua;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-left: 20px;
+    border: 2px solid pink;
+    position: absolute;
+    left:430px;
+    top:250px;
+ }
+
+.test2{
+    width: 100%;
+    color: aliceblue;
+    position: absolute;
+    top:410px;
+    color: aqua;
+    background-image: linear-gradient(to right,rgb(10, 10, 156),rgb(81, 4, 4),rgb(70, 23, 223));
+}
+.flex-container{
+    display: flex;
+    background-image: radial-gradient( pink 50%,green,aqua);
+    width: 100%;
+    height: 100px;
+    padding: 40px;
+    border-radius: 5px;
+    border: 1px solid black;
+    position: absolute;
+    top:450px;
+    justify-content: space-around;
+}
+.flex-item{
+    width: 100px;
     height: 80px;
-}
-input{
-    width: 70px;
-    height:15px;
-}
-.card{
-    background-color: plum;
-    width: 500px;
-    height: 565px;
-    position: absolute;
-    top: 500px;
-    left: 450px;
-    padding-top: 30px;
-    border: 5px solid black;
-   
-}
-.card1{
- width: 200px;
- height:200px;
- background-color: black;
- color: aqua;
- margin: 5px;
- float: left;
- padding: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: darkgray;
 
 }
-.card2{
-    width: 200px;
-    height:200px;
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: auto;
+    gap:10px;
+    position: absolute;
+    top: 680px;
+    border: 1px solid black;
+    width: 100%;
+   
+    
+   
+}
+.grid1{
+    background-color: pink;
+    height: 20px;
+    text-align: center;
+    grid-column: 1 / 5;
+
+}
+.grid2{
+    background-color: orange;
+    text-align: center;
+    
+}
+.grid3{
+    background-color: yellowgreen;
+    
+}
+.grid4{
+    background-color: blue;
+    
+    
+}
+.grid5{
     background-color: black;
- color: aqua;
- margin: 3px;
- float: right;
- padding: 20px;
- 
-   }
-   .card3{
-    width: 453px;
-    height:250px;
-    padding: 20px;
-   background-color: black;
-   color: aqua;
-    margin: 1px;
-    float: right;
-   
-   }
-   
+   color: aliceblue;
+
+}
+.grid6{
+    background-color: aqua;
+    grid-column: 1 / 4;
+}
+.grid7{
+    background-color: violet;
+    grid-column: 1 / 5;
+    text-align: center;
+}

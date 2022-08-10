@@ -1,48 +1,55 @@
 html{
-    background-image: url(./blurimage.png);
-    background-attachment: fixed;
+    background-color: aqua;
 }
-.ramana{
-    display: flex;
-    justify-content: center;
-    margin: 200px;
+.container{
+display: flex;
+flex-flow: column wrap;
+align-content: center;
+padding: 2rem;
 }
-.box{
-    width: 250px;
-    height: 130px;
-    background-color:whitesmoke;
-    margin:7px;
-    border-radius: 5px;
-    padding: 10px;
+span:nth-child(2){
+background-color: black;
+width: 100px;
+height: 100px;
+display: inline-block;
+margin-bottom: 10px;
 }
-.box1{
-    width: 220px;
-    height: 18px;
-    background-color:white;
-    margin-top: 20px;
+#test1 {
+    transition: 3s linear;
 }
-.box2{
-    width: 90px;
-    height: 25px;
-    background-color: blue;
-    margin-top: 20px;
-    position: absolute;
-    top: 280px;
-    left: 650px;
+#test1:hover {
+    width:200px;
 }
-.fa-circle-plus
-{
-    position:absolute;
-    left:653px;
-    top:305px; 
+#test2 {
+    transition: 3s linear;
 }
-.fa-xmark {
-    position:absolute;
-    left:740px;
-    top:220px;  
+#test2:hover {
+    width:200px;
+    height: 200px;
+}#test3 {
+    transition: 3s linear;
 }
-.test{
-    position:absolute;
-    left:px;
-    top:280px;  
+#test3:hover {
+    width:200px;
+}#test4 {
+    transition: 3s linear;
+}
+#test4:hover {
+    width:200px;
+}#test5 {
+    transition: 3s linear;
+}
+#test5:hover {
+    width:200px;
+}#test6{
+    transition: 3s linear;
+}
+#test6:hover {
+    width:200px;
+}
+#test7{
+    transition: 3s linear;
+}
+#test7:hover {
+    width:200px;
 }

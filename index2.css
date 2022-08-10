@@ -1,45 +1,74 @@
-ul{
-    list-style-type:none;
-    font-size: 25px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 10px;
+html{
+    background-image: url(./sky.jpg);
+border-top: 5px solid black;
+border-left: 5px solid blue;
+border-bottom: 5px solid #660abb;
+border-right: 5px solid plum;
+height: 100%;
 }
-.fa-circle-left{
-    position:absolute;
-    left:-1px;
-    top:1px;  
+.background{
+    width:100%;
+    height: 200px;
+    position: absolute;
+    top: 200px;
+    background-image: url(./city.png);
 }
-.fa-circle-plus
-{
-    position:absolute;
-    left:-25px;
-    top:1px; 
+.road{
+    width:100%;
+    height: 200px;
+    position: absolute;
+    top: 400px;
+    background-image:url(./road.jpg);
 }
-.dolly{
-    display: flex;
-    flex-flow: row wrap;
-    background-color: whitesmoke;
-    padding-top: 50px;
-    justify-content: center;
+.car{
 
+    width:100%;
+    height: 200px;
+    position: absolute;
+    top:370px;
+    animation: 3s moving infinite linear;
 }
-.dolly1{
-    width: 220px;
-    height: 180px;
-    background-color: white;
-    margin: 20px;
-    border-radius: 5px;
+.carbody{
+    width: 300px;
+    
 }
-.test1{
-    position:absolute;
-    left:550px;
-    top:70px;  
+@keyframes moving{
+    from{
+        transform: translateX(0px);
+    }to{
+        transform: translateX(80vw);
+    }
 }
-.test2{
-    position:absolute;
-    left:700px;
-    top:70px; 
+.wheel{
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    animation: 1s ramana infinite linear;
 }
-.ramana{
-    filter: blur(2px);
+@keyframes ramana{
+    from{
+        transform: rotate(0deg);
+    }to{
+        transform: rotate(360deg);
+    }
+}
+.left-wheel{
+    top:65px;
+    left:28px;
+}
+.right-wheel{
+    top:65px;
+    left:212px;
+}
+.flag{
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    left: 210px;
+}
+.sun{
+    width: 100px;
+    position: absolute;
+    right: 150px;
 }

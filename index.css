@@ -1,133 +1,107 @@
-.test{
-    width: 100%;
-    color: aliceblue;
-    background-image: linear-gradient(to right,blue,black,aqua);
-}
-.test1{
-    width:50%;
-    height: 70px;
-    background-color: cadetblue;
-    color: black;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    margin: 15px;
-    border: 2px solid black;
-    border-radius: 5px;
-    position:absolute ;
-    left: 280px;
-}
-.grid-container{
-    width: 100%;
-    height:250px;
-    background-color: paleturquoise;
-    border: 2px solid black;
-    position: absolute;
-    top: 130px;
-    border-radius: 10px;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-.grid-item{
-   background-color: black;  
-   margin:1px;
-   width:350px;
-   height: 100px;
-   color: aqua;
-   border-radius: 5px;
-   padding-top: 10px;
-   padding-left: 20px;
-   border: 2px solid pink;
-}
-.extra{
-    background-color: black;  
-    margin:1px;
-    width:350px;
-    color: aqua;
-    border-radius: 5px;
-    padding-top: 10px;
-    padding-left: 20px;
-    border: 2px solid pink;
-    position: absolute;
-    left:430px;
-    top:250px;
- }
 
-.test2{
-    width: 100%;
-    color: aliceblue;
-    position: absolute;
-    top:410px;
-    color: aqua;
-    background-image: linear-gradient(to right,rgb(10, 10, 156),rgb(81, 4, 4),rgb(70, 23, 223));
+h2{
+    margin-top: 0%;
+    padding: 0%;
+    text-align: center;
 }
 .flex-container{
     display: flex;
-    background-image: radial-gradient( pink 50%,green,aqua);
-    width: 100%;
-    height: 100px;
-    padding: 40px;
-    border-radius: 5px;
-    border: 1px solid black;
-    position: absolute;
-    top:450px;
-    justify-content: space-around;
+    align-items:center;
+    justify-content: center;
 }
-.flex-item{
+.test{
     width: 100px;
-    height: 80px;
-    padding: 10px;
-    border-radius: 5px;
-    background-color: darkgray;
+    height: 100px;
+    background-color: darkcyan;
+    margin: 30px;
+    animation-name: box1;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-iteration-count:infinite ;
+    position: relative;
+}
+@keyframes box1{
+   from{
+    transform: skewX(0deg,);
+   }
+   to{
+    transform: skewX(30deg);
+   }
+}
 
+.test1{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    margin:30px; 
+    animation-name: box2;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-iteration-count:infinite;
+    position: relative;
 }
-.grid{
-    display: grid;
-    grid-template-columns: auto auto auto ;
-    grid-template-rows: auto;
-    gap:10px;
-    position: absolute;
-    top: 680px;
-    border: 1px solid black;
-    width: 100%;
-   
+@keyframes box2{
+    from{
+     transform: skewY(0deg,);
+    }
+    to{
+     transform: skewY(30deg);
+    }
+ }
+.test2{
+    width: 100px;
+    height: 100px;
+    background-color:darkgreen;
+    margin:30px;
+    animation:3s 2s box3 normal infinite ;
+}
+@keyframes box3{
+    from{
+        transform: rotate(0deg);
+    }to{
+        transform: rotate(360deg);
+    }
+}
+.test3{
+    width: 100px;
+    height: 100px;
+    background-color:pink;
+    margin:30px;
+    animation: 1s 2s box4 normal infinite;
     
-   
 }
-.grid1{
-    background-color: pink;
-    height: 20px;
-    text-align: center;
-    grid-column: 1 / 5;
-
+.test4{
+    width: 100px;
+    height: 100px;
+    background-color:black;
+    margin:30px;
+    animation: 1s 3s box5 normal infinite ;
 }
-.grid2{
-    background-color: orange;
-    text-align: center;
-    
+.test5{
+    width: 100px;
+    height: 100px;
+    background-color:blueviolet;
+    margin:30px;
+    animation:3s 3s box6 normal infinite ;
 }
-.grid3{
-    background-color: yellowgreen;
-    
+@keyframes box4{
+    from{
+        transform: scaleY(0.3);
+    }to{
+        transform: scaleY(1);
+    }
 }
-.grid4{
-    background-color: blue;
-    
-    
+@keyframes box5{
+    from{
+        transform:scaleX(0.3); 
+    }to{
+        transform:scaleX(1);
+    }
 }
-.grid5{
-    background-color: black;
-   color: aliceblue;
-
-}
-.grid6{
-    background-color: aqua;
-    grid-column: 1 / 4;
-}
-.grid7{
-    background-color: violet;
-    grid-column: 1 / 5;
-    text-align: center;
+@keyframes box6{
+    from{
+        transform: rotate(0deg);
+    }to{
+        transform: rotate(360deg);
+    }
 }

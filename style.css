@@ -1,4 +1,4 @@
-@media (max-width:500px) 
+@media (max-width:400px) 
 {
     
     .head{
@@ -9,14 +9,14 @@
     .flex-container{
         display: flex;
         flex-flow: row wrap;
-        background-color: whitesmoke;
+        background-color: black;
         padding-top: 20px;
         
     }
     .flex-item{
         width: 200px;
         height: 200px;
-        background-color: white;
+        background-color: palevioletred;
         margin:20px;
         border-radius: 10px;
         padding-left: 50px;
@@ -30,7 +30,7 @@
     }
     
 }
-@media(min-width:720px){
+@media(min-width:401px) and (max-width:750px){
     .head{
         font-size: 25px;
         padding: 10px;
@@ -39,14 +39,43 @@
     .flex-container{
         display: flex;
         flex-flow: row wrap;
-        background-color: whitesmoke;
+        background-color: black;
         padding-top: 20px;
         
     }
     .flex-item{
         width: 200px;
         height: 200px;
-        background-color: white;
+        background-color: palevioletred;
+        margin:20px;
+        border-radius: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .test
+    {
+        position:absolute;
+        left:160px;
+        top:70px; 
+    }
+}
+@media(min-width:751px){
+    .head{
+        font-size: 25px;
+        padding: 10px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .flex-container{
+        display: flex;
+        flex-flow: row wrap;
+        background-color: black;
+        padding-top: 20px;
+        
+    }
+    .flex-item{
+        width: 200px;
+        height: 200px;
+        background-color: palevioletred;
         margin:20px;
         border-radius: 10px;
         padding-left: 50px;
